@@ -1,10 +1,13 @@
-import './App.scss';
+import "./App.scss";
+import { Header } from "../Header/Header";
+import React from "react";
 
-function App() {
+const App: React.FC = () => {
   return (
     <div className="App">
+      <Header />
     </div>
   );
-}
+};
 
-export default App;
+export { App };
