@@ -1,10 +1,29 @@
-// My theme colors
-$purple-dark:  red;
-$purple-light:  #BB6EF5;
-$pink:    #D122E3;
+@import "../../node_modules/bootstrap/scss/bootstrap-utilities.scss";
+
+$utilities: (
+  "height": (
+    property: height,
+    class: h,
+    values: (
+      5: 5%,
+      10: 10%,
+      15: 15%,
+      20: 20%,
+      25: 25%,
+      30: 30%,
+      35: 35%,
+      40: 40%,
+      45: 45%,
+      50: 50%,
+      75: 75%,
+      100: 100%,
+      auto: auto,
+    ),
+  ),
+);
 
 // White and gray colors
-$white:    #fff;
+$white: #fff;
 $gray-100: #f8f9fa;
 $gray-200: #e9ecef;
 $gray-300: #dee2e6;
@@ -14,7 +33,7 @@ $gray-600: #6c757d;
 $gray-700: #495057;
 $gray-800: #343a40;
 $gray-900: #212529;
-$black:    #000;
+$black: #000;
 
 // IMPORT BOOTSTRAP 5
 @import "../../node_modules/bootstrap/scss/bootstrap.scss";
