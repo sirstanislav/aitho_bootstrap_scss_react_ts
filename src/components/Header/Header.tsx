@@ -1,8 +1,8 @@
 import Nav from "react-bootstrap/Nav";
 import Navbar from "react-bootstrap/Navbar";
-import ProfileDropdown from "../ProfileDropdown/ProfileDropdown";
-import { OffcanvasNavigation } from "../OffcanvasNavigation/OffcanvasNavigation";
-import { PopoversNavigation } from "../PopoversNavigation/PopoversNavigation";
+import ProfileDropdown from "./ProfileDropdown/ProfileDropdown";
+import { OffcanvasNavigation } from "./OffcanvasNavigation/OffcanvasNavigation";
+import { PopoversNavigation } from "./PopoversNavigation/PopoversNavigation";
 import { useState } from "react";
 import "./Header.scss";
 import { Container } from "react-bootstrap";
