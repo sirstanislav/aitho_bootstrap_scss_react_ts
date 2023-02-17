@@ -8,7 +8,7 @@ import { initialCards } from "../../utility/сonstant";
 
 const Main: React.FC = () => {
   const [show, setShow] = useState(false);
-  const [cards, setCards] = useState<any>([]);
+  const [cards, setCards] = useState<FormData[]>([]);
 
   const handleClose = () => setShow(false);
   const handleShow = () => setShow(true);
