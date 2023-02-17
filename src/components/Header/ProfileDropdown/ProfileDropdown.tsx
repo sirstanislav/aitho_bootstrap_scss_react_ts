@@ -1,6 +1,6 @@
 import { DropdownButton, Dropdown } from "react-bootstrap";
 
-export default function ProfileDropdown() {
+const ProfileDropdown = () => {
   return (
     <DropdownButton align="end" title="SS" variant="rounded-circle border-0">
       <Dropdown.Item eventKey="1">Profile</Dropdown.Item>
@@ -25,4 +25,6 @@ export default function ProfileDropdown() {
       <Dropdown.Item eventKey="10">Log out</Dropdown.Item>
     </DropdownButton>
   );
-}
+};
+
+export { ProfileDropdown };

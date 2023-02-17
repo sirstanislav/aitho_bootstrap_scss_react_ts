@@ -5,7 +5,7 @@ import { Popover, OverlayTrigger, Button, Container } from "react-bootstrap";
 
 interface PopoversNavigationProps {}
 
-const PopoversNavigation: React.FunctionComponent<PopoversNavigationProps> = (
+const PopoversNavigation: React.FC<PopoversNavigationProps> = (
   props
 ) => {
   const popover = (
